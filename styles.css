@@ -28,5 +28,56 @@ form button {
     margin-left: auto;
 }
 
+header {
+    background-color: teal;
+     text-align: center;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
 
+ footer {
+    position: fixed;
+    bottom: 0; 
+    left: 0;
+    width: 100%;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+ }
+
+ aside{
+    float: left;
+    width: 10%;
+    height: 10%;
+    margin-right: 30px;
+    margin-bottom: 100px;
+}
+@media only screen and (max-width: 600px){
+    aside{
+        float: top;
+    }
+}
+ul{
+    text-align: right;
+    list-style-type: none;
+    a{color: teal;}
+    a{text-decoration: none;}
+}
+
+main{
+    display:inline;
+}
+img{
+    display:inline;
+    float: left;
+    max-height: 100px;
+    max-width: 150px;
+    margin-right: 10px;
+}
+form{
+    display:inline;
+    float: left;
+    width: 500px;
+}
  
